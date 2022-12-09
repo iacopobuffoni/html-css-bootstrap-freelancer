@@ -1,0 +1,14 @@
+:root {
+    --darkgray: #2c3e50;
+    --white: white;
+    --section-green: #1abc9c;
+}
+
+.section-green {
+    background-color: var(--section-green);
+}
+
+#portfolio img {
+    width: 100%;
+    border-radius: 20px;
+}

@@ -1,0 +1,17 @@
+[class*="container"] {
+    background-color: aquamarine;
+}
+
+[class*="col"] {
+    background-color: lightcoral;
+    border: 1px solid white;
+}
+
+header {
+    background-color: var(--darkgray);
+}
+
+.img-box {
+    width: 300px;
+    height: 300px;
+}
