@@ -1,12 +1,3 @@
-[class*="container"] {
-    background-color: aquamarine;
-}
-
-[class*="col"] {
-    background-color: lightcoral;
-    border: 1px solid white;
-}
-
 header {
     background-color: var(--darkgray);
 }
@@ -14,4 +5,20 @@ header {
 .img-box {
     width: 300px;
     height: 300px;
+}
+
+form > * {
+    outline: none;
+    border: none;
+    border-bottom: 1px solid gray;
+}
+
+
+#footer-info i {
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    border: 1px solid white;
+    border-radius: 50%;
+    line-height: 50px;
 }
